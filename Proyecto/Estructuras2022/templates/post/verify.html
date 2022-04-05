@@ -1,0 +1,18 @@
+{% extends 'nav.html' %}
+{% block titulo %}Eliminar Publicación{% endblock titulo %}
+{% block content %}
+<div class="card text-center" style="margin-top: 250px; margin-bottom: 250px;">
+    <div class="card-header">
+      Cuidado
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Eliminar Publicación</h5>
+      <p class="card-text">¿Esta seguro que quiere eliminar la publicación?.</p>
+      <a href="{% url 'delete_post' post.id %}" class="btn btn-outline-danger">Estoy seguro</a>
+      <a href="{% url 'index' %}" class="btn btn-outline-dark">Cancelar</a>
+    </div>
+    <div class="card-footer text-muted">
+       
+    </div>
+</div>
+{% endblock content %}

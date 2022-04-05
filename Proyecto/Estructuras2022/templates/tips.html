@@ -1,0 +1,87 @@
+{% extends 'nav.html' %}
+{% block titulo %}Tips{% endblock titulo %}
+{% block content %}
+{% load static %}
+<!-- Header-->
+<header class="bg-gradient text-white" style="background-color: #209E95; padding-top: 60px; padding-bottom: 60px;">
+    <div class="container px-lg-5 text-center">
+        <img src="{% static 'img/Logo_GG.png' %}" height="100" alt="...">
+        <h1 class="fw-bolder" style="color: white;">Tips</h1>      
+    </div>
+</header>
+<!-- Section-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <!-- Tip 1 -->     
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Sale badge-->
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Hoy</div>
+                    <!-- Product image-->
+                    <img class="card-img-top" src="{% static 'img/carrusel (1).JPG' %}" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Nombre del articulo-->
+                            <h5 class="fw-bolder">Mantenimiento de jardín</h5>                            
+                            <!-- Nombre del creador del articulo-->
+                            Por: Luz Córdoba
+                        </div>
+                    </div>
+                    <!-- Ver articulo-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">                            
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Leer</a></div>                                              
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tip 2 -->     
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Sale badge-->
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Ayer</div>
+                    <!-- Product image-->
+                    <img class="card-img-top" src="{% static 'img/carrusel (2).JPG' %}" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Nombre del articulo-->
+                            <h5 class="fw-bolder">Plantas para infusiones</h5>                            
+                            <!-- Nombre del creador del articulo-->
+                            Por: Mery Pino
+                        </div>
+                    </div>
+                    <!-- Ver articulo-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">                            
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Leer</a></div>                                              
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tip 3 -->     
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Sale badge-->
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">2/4/2022</div>
+                    <!-- Product image-->
+                    <img class="card-img-top" src="{% static 'img/carrusel (4).JPG' %}" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Nombre del articulo-->
+                            <h5 class="fw-bolder">Beneficios de los sauces</h5>                            
+                            <!-- Nombre del creador del articulo-->
+                            Por: Adrian Herrera
+                        </div>
+                    </div>
+                    <!-- Ver articulo-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">                            
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Leer</a></div>                                              
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

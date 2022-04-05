@@ -1,0 +1,36 @@
+{% extends "account/base.html" %}
+{% block titulo %}Salir{% endblock titulo %}
+{% load static %}
+{% load i18n %}
+
+
+{% block content %}
+<section class="ftco-section" style="margin-top: 10px; margin-bottom: 10px;">
+  <div class="container login-wrap p-4 p-md-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-sm-12 text-center pb-3">
+        <div class="d-flex align-items-center justify-content-center" style="padding-bottom: 20px;">
+          <img src="{% static 'img/Logo_GG.png' %}" height="100" alt="...">   
+        </div>
+        <h1>Salir</h1>
+        <p>¿Estás seguro de que quieres cerrar la sesión?</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-sm-12">
+        <form method="post" action="{% url 'account_logout' %}">
+          {% csrf_token %}
+          {% if redirect_field_value %}
+          <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
+          {% endif %}
+          <div class="d-grid gap-2">
+            <button class="btn btn-outline-dark" type="submit">Sí</button>
+            <a class="btn btn-outline-dark" href="{% url 'index' %}">Cancelar</a>
+          </div>
+        </form>        
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
