@@ -1,6 +1,6 @@
 # Manual de Usuario
 
-## Log in
+## Ingreso
 En la ventana de *Log in* podremos ingresar nuestro usuario y contraseña 
 para ingresar a la aplicación por medio del botón *Sign in*. También, 
 en caso de no contar con una cuenta, en esta misma ventana podremos encontrar el hipervínculo *regístraté* el cual nos enviará a la ventana de registro *Sign up*.
@@ -9,7 +9,7 @@ en caso de no contar con una cuenta, en esta misma ventana podremos encontrar el
 
 También es posible ingresar desde aqui a las ventanas de **Tips** y **Acerca de nosotros**
 
-## Sign up
+## Registro
  En la ventana de *Sign up* podremos crear nuevos usuarios de la aplicación, para ello se piden los siguientes campos de información:
 
 - Usuario
@@ -21,14 +21,14 @@ Cada uno de estos campos son obligatorios.
 
 ![Registro](https://user-images.githubusercontent.com/65092315/161760876-b97e0e1d-f9e6-4741-aa8b-448e9490d1ad.jpg)
 
-## Home
+## Página Principal
  Cuando ingresamos con una cuenta de Golden Garden, entraremos a la ventana *Home*. Desde aquí podremos ver todos los post de productos publicados por otros usuarios. Para cada uno de estos productos tendremos disponible el botón de *comprar*. Esto si no fue nuestro usuario el que realizó la publicación. Si nosotros fuimos quien realizó esta, entonces, tendremos la opción de *eliminar* y *editar* la publicación. Además, en la parte superior derecha podremos visualizar el botón **Vender** y a la derecha de este un menú despliegable con los botones **Perfil** y **Sign out**.
 
  Desde esta pagina tambien podremos acceder al hipervinculo **Acerca de nosotros**
 
 ![Home](https://user-images.githubusercontent.com/65092315/161760910-8b89b80a-9c75-4e46-822a-292b9b2ad064.jpg)
 
-## About 
+## Acerca de nosotros 
 Dentro del about, nos encontraremos con información del E-commerce.
 
 ![About](https://user-images.githubusercontent.com/65092315/161760941-fb94f21a-4fd8-4ad3-9edb-4e391a5dc98f.jpg)
