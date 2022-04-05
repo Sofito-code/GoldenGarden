@@ -46,12 +46,12 @@ Ninguno de estos campos puede quedar vacío, es decir, son obligatorios.
 ![Post](https://user-images.githubusercontent.com/65092315/161760986-176c3aab-744c-4f20-8804-49b9750c6238.jpg)
 
 ## Modificar
-Desde esta ventana podremos modificar productos ya publicados. Ningún campo es obligatorio.
+Desde esta ventana podremos modificar productos ya publicados. Ningún campo es obligatorio porque la aplicación toma los datos que fueron ingresados en un principio.
 
 ![Editar](https://user-images.githubusercontent.com/65092315/161761014-d5bad46e-4909-4a35-bf89-97953e3364e0.jpg)
 
 ## Tips
-En esta ventana se muestran algunas recomendaciones sobre ciertos productos famosos.
+En esta ventana se muestran artículos montados por la comunidad acerca de plantas, productos, semillas y cuidados.
 
 ![Tips](https://user-images.githubusercontent.com/65092315/161761051-cbdb168e-8cb3-4ca5-a412-a8f69d417b58.jpg)
 
