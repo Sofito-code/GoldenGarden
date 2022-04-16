@@ -26,7 +26,7 @@
                             <!-- Product name-->
                             <h5 class="fw-bolder">{{ post.titulo }}</h5>                            
                             <!-- Product price-->
-                            {{post.precio}}
+                            ${{post.precio}} COP
                         </div>
                     </div>
                     <!-- Product actions-->
@@ -37,7 +37,7 @@
                             <div class="text-center" style="margin-bottom: 10px;"><a class="btn btn-outline-success mt-auto" href="{% url 'edit_post' post.id %}">Editar</a></div>
                             <div class="text-center" style="margin-bottom: 10px;"><a class="btn btn-outline-danger mt-auto" href="{% url 'verify_post' post.id %}">Eliminar</a></div>
                         {% else %}
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div> <br>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="{% url 'index_post' post.id %}">Comprar</a></div> <br>
                         {% endif %}                                               
                     </div>
                 </div>

@@ -17,13 +17,14 @@ from django.contrib import admin
 from django.conf import settings
 from django.urls import include, path
 from django.conf.urls.static import static
-from aplication.principal.views import about, inicio, crearPost, editarPost, verify, eliminarPost, tips
+from aplication.principal.views import about, inicio, crearPost, editarPost, verify, eliminarPost, tips, mostrarPost
 
 
 urlpatterns = [
     path('admon/', admin.site.urls),
     path('acerca_de_nosotros/', about, name = 'about'),
     path('', inicio, name = 'index'),
+    path('mostrar/<int:id>', mostrarPost, name = 'index_post'),    
     path('crear_publicacion/', crearPost, name = 'create_post'),    
     path('editar_publicacion/<int:id>', editarPost, name = 'edit_post'),
     path('verificar_eliminar_post/<int:id>', verify, name = 'verify_post'),

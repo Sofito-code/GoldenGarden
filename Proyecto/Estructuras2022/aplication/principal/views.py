@@ -17,6 +17,13 @@ def inicio(request):
     }
     return render(request,'index.html',contexto)
 
+def mostrarPost(request,id):
+    poster = Poster.objects.get(id = id)
+    contexto = {
+        'poster' : poster
+    }
+    return render(request,'post/index.html', contexto)
+
 def crearPost(request):
     if request.method == 'GET':
         form = PosterForm()
